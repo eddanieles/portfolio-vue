@@ -429,7 +429,7 @@
 
       <v-sheet dark id="CONTACT">
         <v-img
-          src="https://static-map.tesla.com/v1/map?screen_type=desktop&map_type=world"
+          src="./assets/machine learning.png"
           gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
         >
           <v-container class="fill-height">
