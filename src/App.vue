@@ -40,9 +40,9 @@
               class="font-weight-bold headline"
             >
               <v-icon large color="accent">
-                mdi-feather
+                mdi-emoticon-cool
               </v-icon>
-              Hero<span class="accent--text">UI</span>
+              My<span class="accent--text">Portfolio</span>
             </v-toolbar-title>
           </v-col>
           <v-col class="text-right" v-if="$vuetify.breakpoint.lgAndUp">
@@ -62,7 +62,7 @@
     <v-content>
       <v-sheet dark>
         <v-img
-          src="https://cdn.pixabay.com/photo/2020/04/17/14/16/mountains-5055387_1280.jpg"
+          src="./assets/code background.jpg"
           height="100vh"
           width="100vw"
         >
@@ -71,24 +71,24 @@
               <v-col class="text-center">
                 <h3 class="display-2">
                   <span class="welcome">
-                    Welcome To Our Studio!
+                    Welcome To My Portfolio!
                   </span>
                 </h3>
                 <h1 class="display-4 my-8 font-weight-black">
-                  IT'S NICE TO MEET YOU
+                  IT'S ED DANIELES, BIOTCH!
                 </h1>
 
                 <v-btn
                   x-large
                   color="accent"
                   class="mt-5"
-                  href="https://github.com/AGDholo/agency"
-                  target="_black"
+                  href="https://github.com/eddanieles/portfolio-vue"
+                  target="_blank"
                 >
                   <v-icon left>
-                    mdi-download
+                    mdi-folder
                   </v-icon>
-                  Free Download
+                  View Github Repo
                 </v-btn>
               </v-col>
             </v-row>
@@ -178,18 +178,105 @@
           </div>
 
           <v-timeline>
-            <v-timeline-item v-for="(n, i) in 4" :key="i" large>
+            <!-- <v-timeline-item v-for="(n, i) in 4" :key="i" large>
+        
+            </v-timeline-item> -->
+            <v-timeline-item large>
               <template v-slot:icon>
                 <v-avatar>
-                  <img src="https://i.pravatar.cc/64" />
+                  <img src="./assets/monmouth u.jpeg" />
                 </v-avatar>
               </template>
               <template v-slot:opposite>
-                <span>2009-2011</span>
+                <span>2007-2009</span>
               </template>
               <v-card flat color="transparent">
                 <v-card-title class="headline"
-                  >Our Humble Beginnings</v-card-title
+                  >Monmouth University</v-card-title
+                >
+                <v-card-text class="body-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
+                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+                  dolore laudantium consectetur!
+                </v-card-text>
+              </v-card>
+            </v-timeline-item>
+            <v-timeline-item>
+              <template v-slot:icon>
+                <v-avatar>
+                  <img src="./assets/gdit.png" />
+                </v-avatar>
+              </template>
+              <template v-slot:opposite>
+                <span>2009-2013</span>
+              </template>
+              <v-card flat color="transparent">
+                <v-card-title class="headline"
+                  >GDIT</v-card-title
+                >
+                <v-card-text class="body-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
+                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+                  dolore laudantium consectetur!
+                </v-card-text>
+              </v-card>
+            </v-timeline-item>
+            <v-timeline-item>
+              <template v-slot:icon>
+                <v-avatar>
+                  <img src="./assets/icims.png" />
+                </v-avatar>
+              </template>
+              <template v-slot:opposite>
+                <span>2013-2015</span>
+              </template>
+              <v-card flat color="transparent">
+                <v-card-title class="headline"
+                  >iCIMS</v-card-title
+                >
+                <v-card-text class="body-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
+                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+                  dolore laudantium consectetur!
+                </v-card-text>
+              </v-card>
+            </v-timeline-item>
+            <v-timeline-item>
+              <template v-slot:icon>
+                <v-avatar>
+                  <img src="./assets/the iron yard.png" />
+                </v-avatar>
+              </template>
+              <template v-slot:opposite>
+                <span>2016</span>
+              </template>
+              <v-card flat color="transparent">
+                <v-card-title class="headline"
+                  >The Iron Yard</v-card-title
+                >
+                <v-card-text class="body-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
+                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+                  dolore laudantium consectetur!
+                </v-card-text>
+              </v-card>
+            </v-timeline-item>
+            <v-timeline-item>
+              <template v-slot:icon>
+                <v-avatar>
+                  <img src="./assets/bullhorn.png" />
+                </v-avatar>
+              </template>
+              <template v-slot:opposite>
+                <span>2017-2020</span>
+              </template>
+              <v-card flat color="transparent">
+                <v-card-title class="headline"
+                  >Bullhorn</v-card-title
                 >
                 <v-card-text class="body-2">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
@@ -207,7 +294,7 @@
         <v-container>
           <div class="pt-12 text-center">
             <h3 class="display-1 font-weight-blod">
-              OUR AMAZING TEAM
+              MEET THE TEAM
             </h3>
             <p class="body-2 my-3">
               <span class="welcome">
@@ -217,22 +304,97 @@
           </div>
 
           <v-row justify="center" align="center" class="mt-5">
-            <v-col
+            <!-- <v-col
               cols="12"
               md="4"
               v-for="(item, i) in 3"
               :key="i"
               class="text-center"
             >
+              
+            </v-col> -->
+            <v-col
+              cols="12"
+              md="4"
+              class="text-center"
+            >
               <v-avatar size="224">
-                <v-img src="https://i.pravatar.cc/224"></v-img>
+                <v-img src="./assets/crazy hair.jpg"></v-img>
               </v-avatar>
 
               <h4 class="title mt-2">
-                Kay Garland
+                E Dizzle
               </h4>
               <p class="body-2">
                 Lead Designer
+              </p>
+
+              <div>
+                <v-btn icon color="primary">
+                  <v-icon>
+                    mdi-twitter
+                  </v-icon>
+                </v-btn>
+                <v-btn icon color="primary">
+                  <v-icon>
+                    mdi-facebook
+                  </v-icon>
+                </v-btn>
+                <v-btn icon color="primary">
+                  <v-icon>
+                    mdi-instagram
+                  </v-icon>
+                </v-btn>
+              </div>
+            </v-col>
+            <v-col
+              cols="12"
+              md="4"
+              class="text-center"
+            >
+              <v-avatar size="224">
+                <v-img src="./assets/linkedin.jpg"></v-img>
+              </v-avatar>
+
+              <h4 class="title mt-2">
+                Mr. Danieles
+              </h4>
+              <p class="body-2">
+                CEO
+              </p>
+
+              <div>
+                <v-btn icon color="primary">
+                  <v-icon>
+                    mdi-twitter
+                  </v-icon>
+                </v-btn>
+                <v-btn icon color="primary">
+                  <v-icon>
+                    mdi-facebook
+                  </v-icon>
+                </v-btn>
+                <v-btn icon color="primary">
+                  <v-icon>
+                    mdi-instagram
+                  </v-icon>
+                </v-btn>
+              </div>
+            </v-col>
+            <v-col
+              cols="12"
+              md="4"
+              class="text-center"
+            >
+              <v-avatar size="224">
+                <v-img src="./assets/beard.jpg"></v-img>
+              </v-avatar>
+
+              <h4 class="title mt-2">
+                Roxy
+              </h4>
+              <p class="body-2">
+                Brand Ambassador
               </p>
 
               <div>
@@ -275,7 +437,7 @@
               <v-col cols="12">
                 <div class="pt-12 text-center">
                   <h3 class="display-1 font-weight-blod">
-                    CONTACT US
+                    CONTACT ME
                   </h3>
                   <p class="body-2 my-3">
                     <span class="welcome">
