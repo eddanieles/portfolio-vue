@@ -6,7 +6,7 @@
 
 ## Preview
 
-![Agency Preview](/preview.png)
+![Agency Preview](/src/assets/preview.png)
 
 **[View Live Preview](https://agency.heroui.net/)**
 
