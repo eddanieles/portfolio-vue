@@ -11,10 +11,10 @@
               </span>
             </p>
 
-            <v-row align="center" justify="center" class="mt-5">
+            <v-row align="center" justify="center" class="mt-5 media">
               <v-col cols="12" md="4" v-for="(project, i) in projects" :key="i">
                 <v-img
-                  src="https://cdn.pixabay.com/photo/2020/05/06/12/01/compass-5137269_1280.jpg"
+                  v-bind:src="project.image"
                 >
                 </v-img>
 
@@ -38,42 +38,42 @@ export default {
   data:() => ({
         projects: [
             {
-                image: "mdi-desktop-mac-dashboard",
+                image: "../assets/projects/calculator1.png",
                 title: "Calculator",
                 githubUrl: "https://github.com/eddanieles/JavaScript-Calculator",
                 subtitle:
                 "A simple calculator made to copy a iPhone calculator. It can perform basic math operations and evens follows order of operations.",
             },
             {
-                image: "mdi-checkbox-multiple-marked",
+                image: "../assets/projects/battle1.png",
                 title: "Marvel Character Battle",
                 githubUrl: "https://github.com/lakeblack/nerd-fight/tree/eds",
                 subtitle:
                 'Given pre-built "fight algorithm" and "character ratings and rankings" files to simulate a battle between two Marvel Superheros.',
             },
             {
-                image: "mdi-head-cog",
+                image: "../assets/projects/budget2.png",
                 title: "Budget Me",
                 githubUrl: "https://github.com/lakeblack/final_budget_app",
                 subtitle:
                 "A web app to help assist users create budgets based on income, expenses and goals.",
             },
             {
-                image: "mdi-head-cog",
+                image: "../assets/projects/toasty2.png",
                 title: "Toasty",
                 githubUrl: "https://github.com/eddanieles/toasty_practice/",
                 subtitle:
                 'A different take to "wack-a-mole" to learn react/redux and understand actions/reducers/store/middleware.',
             },
             {
-                image: "mdi-head-cog",
+                image: "../assets/projects/book return.png",
                 title: "Library Return",
                 githubUrl: "https://github.com/eddanieles/libraryReturns",
                 subtitle:
                 "A vue project to simulate a library return app. The app analyzes the amount of pages read based on book category.",
             },
             {
-                image: "mdi-head-cog",
+                image: "../assets/projects/nyt app.png",
                 title: "NY Times API",
                 githubUrl: "https://github.com/eddanieles/nyt-app",
                 subtitle:
