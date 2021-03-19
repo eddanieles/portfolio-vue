@@ -35,68 +35,12 @@
           </v-container>
         </v-img>
       </v-sheet>
-
-      <v-container>
-        <v-sheet color="transparent" id="SERVICES">
-          <div class="pt-12 text-center">
-            <h3 class="display-1 font-weight-blod">
-              SERVICES
-            </h3>
-            <p class="body-2 my-3">
-              <span class="welcome">
-                Lorem ipsum dolor sit amet consectetur.
-              </span>
-            </p>
-          </div>
-
-          <v-row justify="center" align="center" class="mt-5">
-            <v-col
-              cols="12"
-              md="4"
-              v-for="(item, i) in services"
-              :key="i"
-              class="text-center"
-            >
-              <v-icon size="128" color="accent">
-                {{ item.icon }}
-              </v-icon>
-              <h4 class="title my-2">
-                {{ item.title }}
-              </h4>
-              <p>
-                {{ item.subtitle }}
-              </p>
-            </v-col>
-          </v-row>
-        </v-sheet>
-      </v-container>
   </div>
 </template>
 
 <script>
 export default {
-    data:() => ({
-        services: [
-            {
-                icon: "mdi-desktop-mac-dashboard",
-                title: "Front End Development",
-                subtitle:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
-            },
-            {
-                icon: "mdi-checkbox-multiple-marked",
-                title: "Quality Assurance",
-                subtitle:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
-            },
-            {
-                icon: "mdi-head-cog",
-                title: "Subject Matter Expert",
-                subtitle:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
-            },
-        ],
-    })
+    
 }
 </script>
 

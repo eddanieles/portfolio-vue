@@ -5,6 +5,10 @@
     <v-content>
       <headline />
 
+      <v-sheet id="SERVICES">
+        <services />
+      </v-sheet>
+
       <v-sheet id="PORTFOLIO">
         <portfolio />
       </v-sheet>
@@ -33,19 +37,22 @@ import FooterBar from './components/FooterBar.vue';
 import Headline from './components/Headline.vue';
 import MenuBar from './components/MenuBar.vue';
 import Portfolio from './components/Portfolio.vue';
+import Services from './components/Services.vue';
 import Team from './components/Team.vue';
 
 export default {
   components: { 
     MenuBar, 
-    Headline, 
+    Headline,
+    Services, 
     Portfolio, 
     About, 
     Team, 
     Contact, 
     FooterBar }
 };
-</script>
+</script>,
+    Services
 
 <style lang="scss">
 .display-2,
