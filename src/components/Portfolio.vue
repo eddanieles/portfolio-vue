@@ -7,7 +7,7 @@
             </h3>
             <p class="body-2 my-3">
               <span class="welcome">
-                Lorem ipsum dolor sit amet consectetur.
+                Fun personal projects from the past years.
               </span>
             </p>
 

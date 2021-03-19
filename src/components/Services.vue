@@ -8,7 +8,7 @@
             </h3>
             <p class="body-2 my-3">
               <span class="welcome">
-                Lorem ipsum dolor sit amet consectetur.
+                Few of the many things I can provide.
               </span>
             </p>
           </div>
