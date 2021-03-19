@@ -7,7 +7,7 @@
             </h3>
             <p class="body-2 my-3">
               <span class="welcome">
-                Lorem ipsum dolor sit amet consectetur.
+                Stops I made in the past year. Hopefully your company is the last stop.
               </span>
             </p>
           </div>
@@ -30,17 +30,14 @@
                   >Monmouth University</v-card-title
                 >
                 <v-card-text class="body-2">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                  dolore laudantium consectetur!
+                  Earned a Bachelor's degree in Mathematics. Merit award winner for high GPA in program. 
                 </v-card-text>
               </v-card>
             </v-timeline-item>
             <v-timeline-item>
               <template v-slot:icon>
                 <v-avatar>
-                  <img src="../assets/gdit.png" />
+                  <img src="../assets/gdit.jpg" />
                 </v-avatar>
               </template>
               <template v-slot:opposite>
@@ -51,10 +48,7 @@
                   >GDIT</v-card-title
                 >
                 <v-card-text class="body-2">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                  dolore laudantium consectetur!
+                  Gained government issued secret security clearance. System Administrator for various military training systems.
                 </v-card-text>
               </v-card>
             </v-timeline-item>
@@ -72,10 +66,7 @@
                   >iCIMS</v-card-title
                 >
                 <v-card-text class="body-2">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                  dolore laudantium consectetur!
+                  Product Manager for HR software system.
                 </v-card-text>
               </v-card>
             </v-timeline-item>
@@ -93,10 +84,7 @@
                   >The Iron Yard</v-card-title
                 >
                 <v-card-text class="body-2">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                  dolore laudantium consectetur!
+                  Learned front end development with specialization in React framework.
                 </v-card-text>
               </v-card>
             </v-timeline-item>
@@ -114,10 +102,7 @@
                   >Bullhorn</v-card-title
                 >
                 <v-card-text class="body-2">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                  dolore laudantium consectetur!
+                  Wore various hats: Customer Support, Junior Developer, QA Engineer. Facilitated releases. Jira, Github, Mongo, Angular, Node, Express (MEAN stack). 
                 </v-card-text>
               </v-card>
             </v-timeline-item>

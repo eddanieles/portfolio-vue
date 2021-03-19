@@ -7,7 +7,7 @@
             </h3>
             <p class="body-2 my-3">
               <span class="welcome">
-                Lorem ipsum dolor sit amet consectetur.
+                Team of one but more of a team player.
               </span>
             </p>
           </div>
@@ -127,9 +127,7 @@
 
             <v-col cols="12" md="8" class="text-center mt-5 body-2">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-                eaque, laboriosam veritatis, quos non quis ad perspiciatis,
-                totam corporis ea, alias ut unde.
+                I have been very fortunate to work with some amazing people. I hope to bring my skills and be part of your team.
               </p>
             </v-col>
           </v-row>

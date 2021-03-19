@@ -5,7 +5,10 @@
         <v-row align="center" justify="space-between">
           <v-col>
             <div>
-              Copyright &copy; Your Website {{ new Date().getFullYear() }}
+              &copy;{{ new Date().getFullYear() }}  
+              <a href="https://github.com/AGDholo" text class="accent--text">
+                https://github.com/AGDholo
+              </a>
             </div>
           </v-col>
 
