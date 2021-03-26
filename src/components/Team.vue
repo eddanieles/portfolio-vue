@@ -21,7 +21,7 @@
               class="text-center"
             >
               <v-avatar size="224">
-                <img v-bind:src=teammate.image>
+                <v-img :src="require(`../assets/${teammate.image}.jpg`)"></v-img>
               </v-avatar>
 
               <h4 class="title mt-2">
@@ -72,17 +72,17 @@ export default {
   data: () => ({
     teammates: [
       {
-        image: "../assets/crazy hair.jpg",
+        image: "crazy hair",
         name: "E Dizzle",
         title: "Lead Designer"
       },
       {
-        image: "../assets/linkedin.jpg",
+        image: "linkedin",
         name: "Mr. Danieles",
         title: "CEO/Software Engineer"
       },
       {
-        image: "../assets/beard.jpg",
+        image: "beard",
         name: "Roxy",
         title: "Brand Ambassador"
       }
