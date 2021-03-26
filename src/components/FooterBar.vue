@@ -5,7 +5,7 @@
         <v-row align="center" justify="space-between">
           <v-col>
             <div>
-              &copy;{{ new Date().getFullYear() }}  
+              &copy;2020<!-- {{ new Date().getFullYear() }}   -->
               <a href="https://github.com/AGDholo" text class="accent--text">
                 https://github.com/AGDholo
               </a>
@@ -15,19 +15,25 @@
           <v-col class="text-center">
             <div>
               <v-btn icon color="primary">
-                <v-icon>
-                  mdi-twitter
-                </v-icon>
+                <a href="https://twitter.com/EdDanieles" target="_blank"> 
+                  <v-icon>
+                    mdi-twitter
+                  </v-icon> 
+                </a>
               </v-btn>
               <v-btn icon color="primary">
-                <v-icon>
-                  mdi-facebook
-                </v-icon>
+                <a href="https://www.facebook.com/ed.daniels.921/" target="_blank"> 
+                  <v-icon>
+                    mdi-facebook
+                  </v-icon> 
+                </a>
               </v-btn>
               <v-btn icon color="primary">
-                <v-icon>
-                  mdi-instagram
-                </v-icon>
+                <a href="https://www.linkedin.com/in/ed-danieles-6a183871/" target="_blank"> 
+                  <v-icon>
+                    mdi-linkedin
+                  </v-icon> 
+                </a>
               </v-btn>
             </div>
           </v-col>

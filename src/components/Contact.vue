@@ -53,5 +53,7 @@ export default {
 </script>
 
 <style>
-
+  a:link {
+    text-decoration: none;
+  }
 </style>
