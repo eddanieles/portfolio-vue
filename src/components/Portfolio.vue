@@ -13,8 +13,8 @@
 
             <v-row align="center" justify="center" class="mt-5 media">
               <v-col cols="12" md="4" v-for="(project, i) in projects" :key="i">
-                <v-card width="224">
-                  <v-img height="224" :src="require(`../assets/projects/${project.image}.png`)"></v-img>
+                <v-card width="360">
+                  <v-img height="360" :src="require(`../assets/projects/${project.image}.png`)"></v-img>
                 </v-card>
                 <h4 class="title mt-2">
                   {{project.title}}
