@@ -39,10 +39,10 @@
           </v-col>
 
           <v-col class="text-right">
-            <a text class="accent--text">
+            <a text class="accent--text" href="https://heroui.net/" target="_blank">
               Privacy Policy
             </a>
-            <a text class="pl-2 accent--text">
+            <a text class="pl-2 accent--text" href="https://twitter.com/P1kaP1kaChu_" target="_blank">
               Terms of Use
             </a>
           </v-col>
