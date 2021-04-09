@@ -18,18 +18,36 @@
                   IT'S ED DANIELES, BIOTCH!
                 </h1>
 
-                <v-btn
-                  x-large
-                  color="accent"
-                  class="mt-5"
-                  href="https://github.com/eddanieles/portfolio-vue"
-                  target="_blank"
-                >
-                  <v-icon left>
-                    mdi-folder
-                  </v-icon>
-                  View Github Repo
-                </v-btn>
+                <div>
+                  <v-btn
+                    x-large
+                    color="accent"
+                    class="mt-5"
+                    href="https://github.com/eddanieles/portfolio-vue"
+                    target="_blank"
+                  >
+                    <v-icon left>
+                      mdi-folder
+                    </v-icon>
+                    View Github Repo
+                  </v-btn>
+                </div>
+                
+                <div>
+                  <v-btn
+                    x-large
+                    color="accent"
+                    class="mt-5"
+                    href="https://docs.google.com/document/d/1Fw8aSmQP9cEeIso-NydpfTwO8YzAlQ6ilXq47fRlyU0/edit?usp=sharing"
+                    target="_blank"
+                  >
+                    <v-icon left>
+                      mdi-card-text
+                    </v-icon>
+                    View Resume
+                  </v-btn>
+                </div>
+                
               </v-col>
             </v-row>
           </v-container>
