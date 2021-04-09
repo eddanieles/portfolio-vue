@@ -22,7 +22,7 @@
               <v-col cols="12" md="6">
                 <v-text-field label="Your Name*" solo light></v-text-field>
                 <v-text-field label="Your Email*" solo light></v-text-field>
-                <v-text-field label="Your Phone*" solo light></v-text-field>
+                <v-text-field label="Your Phone" solo light></v-text-field>
               </v-col>
 
               <v-col cols="12" md="6" class="fill-height">
