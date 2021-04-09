@@ -13,7 +13,7 @@
             </p>
           </div>
 
-          <v-row justify="center" align="center" class="mt-5">
+          <v-row justify="center" align="start" class="mt-5">
             <v-col
               cols="12"
               md="4"
@@ -45,7 +45,7 @@ export default {
                 icon: "mdi-desktop-mac-dashboard",
                 title: "Front End Development",
                 subtitle:
-                "Began learning Javscript and React in 2016. Learning more about Vue and have been really enjoying it.",
+                "Began learning Javscript and React in 2016. Learning more about Vue and have been really enjoying it. And I have also a little UI/UX design in Sketch and InVision.",
             },
             {
                 icon: "mdi-checkbox-multiple-marked",
