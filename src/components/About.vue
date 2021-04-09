@@ -7,7 +7,7 @@
             </h3>
             <p class="body-2 my-3">
               <span class="welcome">
-                Stops I made in the past year. Hopefully your company is the last stop.
+                Stops I made in the past years. Hopefully your company is the last stop.
               </span>
             </p>
           </div>
