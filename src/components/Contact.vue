@@ -13,7 +13,7 @@
                   </h3>
                   <p class="body-2 my-3">
                     <span class="welcome">
-                      Lorem ipsum dolor sit amet consectetur.
+                      I thought this was a cool feature and I didn't want to remove it.
                     </span>
                   </p>
                 </div>
