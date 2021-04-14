@@ -6,7 +6,7 @@
           <v-col>
             <div>
               &copy;2020<!-- {{ new Date().getFullYear() }}   -->
-              <a href="https://github.com/AGDholo" text class="accent--text">
+              <a href="https://github.com/AGDholo" text class="accent--text" target="_blank">
                 https://github.com/AGDholo
               </a>
             </div>
