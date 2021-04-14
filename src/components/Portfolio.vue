@@ -13,6 +13,7 @@
 
             <v-row align="start" justify="center" class="mt-5 media">
               <v-col cols="12" md="4" v-for="(project, i) in projects" :key="i">
+                <a v-bind:href="`${project.githubUrl}`" target="_blank"> 
                 <v-card width="360">
                   <v-img height="360" :src="require(`../assets/projects/${project.image}.png`)"></v-img>
                 </v-card>
@@ -24,6 +25,7 @@
                     {{project.subtitle}}
                   </span>
                 </p>
+                </a>
               </v-col>
             </v-row>
           </div>
@@ -45,14 +47,14 @@ export default {
             {
                 image: "battle1",
                 title: "Marvel Character Battle",
-                githubUrl: "https://github.com/lakeblack/nerd-fight/tree/eds",
+                githubUrl: "https://github.com/eddanieles/nerd-fight",
                 subtitle:
                 'Given pre-built "fight algorithm" and "character ratings and rankings" files to simulate a battle between two Marvel Superheros.',
             },
             {
                 image: "budget2",
                 title: "Budget Me",
-                githubUrl: "https://github.com/lakeblack/final_budget_app",
+                githubUrl: "https://github.com/eddanieles/final_budget_app",
                 subtitle:
                 "A web app to help assist users create budgets based on income, expenses and goals.",
             },
