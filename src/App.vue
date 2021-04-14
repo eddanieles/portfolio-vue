@@ -55,6 +55,8 @@ export default {
     Services
 
 <style lang="scss">
+@import '../node_modules/@braid/vue-formulate/themes/snow/snow.scss';
+
 .display-2,
 .body-2 {
   .welcome {
@@ -63,5 +65,17 @@ export default {
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     font-style: italic;
   }
+}
+
+.formulate-input .formulate-input-element {
+    max-width: none;
+}
+
+.formulate-input[data-classification=textarea] textarea {
+  line-height: 5.2em;
+}
+
+.v-responsive {
+  padding-bottom: none;
 }
 </style>
