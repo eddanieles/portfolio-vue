@@ -1,6 +1,6 @@
 # This is my portfolio made with Vue
 I was able to find an awesome template. All the credit belong to the following:
-[中文介绍](https://github.com/heroui/agency/blob/master/zh-readme.md)
+[中文介绍](https://github.com/heroui/agency/blob/master/zh-readme.md) and 
 [Pika](https://twitter.com/P1kaP1kaChu_)
 
 Please check them out whenever you have a chance.
