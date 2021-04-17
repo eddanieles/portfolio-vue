@@ -1,15 +1,15 @@
 <template>
   <div>
       <v-img
-          src="../assets/machine learning.png"
-          gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
-        >
+        src="../assets/machine learning.png"
+        gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
+      >
         <FormulateForm
             v-model="formValues" 
             @submit="sendEmail" 
             name="contactForm">
-            <v-container>
-                <v-row>
+            <v-container class="fill-height">
+                <v-row align="center" justify="center">>
                     <v-col cols="12">
                         <div class="pt-12 text-center">
                         <h3 class="display-1 font-weight-blod">

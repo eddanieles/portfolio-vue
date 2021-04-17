@@ -7,7 +7,7 @@
             </h3>
             <p class="body-2 my-3">
               <span class="welcome">
-                Team of one but more of a team player.
+                One man wolfpack.
               </span>
             </p>
           </div>

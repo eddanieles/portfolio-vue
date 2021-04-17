@@ -1,7 +1,7 @@
 <template>
   <div>
       <v-sheet dark>
-        <v-img
+        <v-img 
           src="../assets/code background.jpg"
           height="100vh"
           width="100vw"
@@ -11,11 +11,11 @@
               <v-col class="text-center">
                 <h3 class="display-2">
                   <span class="welcome">
-                    Welcome To My Portfolio!
+                    ED DANIELES
                   </span>
                 </h3>
                 <h1 class="display-4 my-8 font-weight-black">
-                  IT'S ED DANIELES, BIOTCH!
+                  Welcome To My Portfolio!
                 </h1>
 
                 <div>
@@ -38,7 +38,7 @@
                     x-large
                     color="accent"
                     class="mt-5"
-                    href="https://docs.google.com/document/d/1Fw8aSmQP9cEeIso-NydpfTwO8YzAlQ6ilXq47fRlyU0/edit?usp=sharing"
+                    href="https://docs.google.com/document/d/1NixXJ-D3ZzsuPydFHs8aLFodjuK6Z-jqEoxJoS1nLhs/edit?usp=sharing"
                     target="_blank"
                   >
                     <v-icon left>
