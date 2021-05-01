@@ -9,14 +9,24 @@
           <v-container class="fill-height">
             <v-row align="center" justify="center">
               <v-col class="text-center">
-                <h3 class="display-2">
-                  <span class="welcome">
-                    ED DANIELES
-                  </span>
-                </h3>
                 <h1 class="display-4 my-8 font-weight-black">
                   Welcome To My Portfolio!
                 </h1>
+                <h3 class="display-2">
+                  <p class="welcome">
+                    ED DANIELES
+                  </p>
+                  <p class="welcome contactInfo">
+                    Orlando, FL
+                  </p>
+                  <p class="welcome contactInfo">
+                    732-864-6339
+                  </p>
+                  <p class="welcome contactInfo">
+                    ed.danieles@gmail.com
+                  </p>
+                </h3>
+                
 
                 <div>
                   <v-btn

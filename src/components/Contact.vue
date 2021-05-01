@@ -20,6 +20,11 @@
                             I thought this was a cool feature and I didn't want to remove it. I made it functional, so go ahead and send me a message or a job offer. Please don't spam me.
                             </span>
                         </p>
+                        <p class="body-2 my-3">
+                            <span class="welcome">
+                            Also, please feel free to email me ed.danieles@gmail.com.
+                            </span>
+                        </p>
                         </div>
                     </v-col>
 

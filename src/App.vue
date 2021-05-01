@@ -65,6 +65,10 @@ export default {
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     font-style: italic;
   }
+  .contactInfo {
+    font-size: 0.5em;
+    margin: 0px;
+  }
 }
 
 .formulate-input .formulate-input-element {
