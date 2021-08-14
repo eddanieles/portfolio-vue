@@ -3,6 +3,7 @@
     <v-img
       src="../assets/machine learning.png"
       gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
+      :height="$vuetify.breakpoint.lg ? '500px' : '800px'"
     >
       <FormulateForm
         v-model="formValues"
@@ -114,5 +115,6 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+
 </style>
