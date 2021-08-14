@@ -48,7 +48,7 @@
                     x-large
                     color="accent"
                     class="mt-5"
-                    href="https://docs.google.com/document/d/1NixXJ-D3ZzsuPydFHs8aLFodjuK6Z-jqEoxJoS1nLhs/edit?usp=sharing"
+                    href="https://docs.google.com/document/d/1WYEcLSdzIJm8t4XLQ6Wmx6mhboGpcOQtQQatH9Al3d8/edit?usp=sharing"
                     target="_blank"
                   >
                     <v-icon left>

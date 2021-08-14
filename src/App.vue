@@ -77,9 +77,19 @@ export default {
 
 .formulate-input[data-classification=textarea] textarea {
   line-height: 5.2em;
+  background-color: white;
 }
+
+.formulate-input[data-classification=text] input{
+  background-color: white;
+}
+
 
 .v-responsive {
   padding-bottom: none;
+}
+
+a:link {
+  text-decoration: none;
 }
 </style>
