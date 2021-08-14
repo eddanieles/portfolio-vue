@@ -1,12 +1,15 @@
 <template>
   <div>
     <v-img
-          src="../assets/machine learning.png"
-          gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
-        >
-    <FormulateForm v-model="formValues" @submit="sendEmail" name="contactForm">
-      <v-container class="fill-height fluid">
-      
+      src="../assets/machine learning.png"
+      gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
+    >
+      <FormulateForm
+        v-model="formValues"
+        @submit="sendEmail"
+        name="contactForm"
+      >
+        <v-container class="fill-height fluid">
           <v-row align="center" justify="center">
             <v-col cols="12">
               <div class="pt-12 text-center">
@@ -61,9 +64,8 @@
               </v-btn>
             </v-col>
           </v-row>
-        
-      </v-container>
-    </FormulateForm>
+        </v-container>
+      </FormulateForm>
     </v-img>
   </div>
 </template>
@@ -113,8 +115,4 @@ export default {
 </script>
 
 <style>
-a:link {
-  text-decoration: none;
-}
-
 </style>
