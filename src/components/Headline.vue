@@ -3,12 +3,12 @@
       <v-sheet dark>
         <v-img 
           src="../assets/code background.jpg"
-          height="100vh"
+          height="150vh"
           width="100vw"
         >
           <v-container class="fill-height">
             <v-row align="center" justify="center">
-              <v-col class="text-center">
+              <v-col class="text-center justify-center">
                 <h1 class="display-4 my-8 font-weight-black">
                   Welcome To My Portfolio!
                 </h1>
