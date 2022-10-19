@@ -17,7 +17,7 @@
                     ED DANIELES
                   </p>
                   <p class="welcome contactInfo">
-                    Orlando, FL
+                    Charlotte, NC
                   </p>
                   <p class="welcome contactInfo">
                     732-864-6339

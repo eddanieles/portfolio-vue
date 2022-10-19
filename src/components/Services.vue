@@ -42,7 +42,7 @@ export default {
     data:() => ({
         services: [
             {
-                icon: "mdi-desktop-mac-dashboard",
+                icon: "mdi-application-outline",
                 title: "Front End Development",
                 subtitle:
                 "Began learning Javscript and React in 2016. Learning more about Vue and have been really enjoying it. And I have also a little UI/UX design in Sketch and InVision.",

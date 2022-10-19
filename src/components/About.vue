@@ -106,6 +106,24 @@
                 </v-card-text>
               </v-card>
             </v-timeline-item>
+            <v-timeline-item>
+              <template v-slot:icon>
+                <v-avatar>
+                  <img src="../assets/grin.png" />
+                </v-avatar>
+              </template>
+              <template v-slot:opposite>
+                <span>2021-2022</span>
+              </template>
+              <v-card flat color="transparent">
+                <v-card-title class="headline"
+                  >Grin</v-card-title
+                >
+                <v-card-text class="body-2">
+                  Dev Ops: working inside Jira, QA new and existing features, querying and executing SQL scripts. Vue, Laravel, SQL and AWS tech stack.
+                </v-card-text>
+              </v-card>
+            </v-timeline-item>
           </v-timeline>
         </v-container>
   </div>
