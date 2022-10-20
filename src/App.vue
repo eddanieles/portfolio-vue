@@ -78,10 +78,12 @@ export default {
 .formulate-input[data-classification=textarea] textarea {
   line-height: 5.2em;
   background-color: white;
+  color: black;
 }
 
 .formulate-input[data-classification=text] input{
   background-color: white;
+  color: black;
 }
 
 
