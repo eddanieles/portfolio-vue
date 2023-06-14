@@ -89,15 +89,15 @@ export default {
   methods: {
     sendEmail: (e) => {
       let formObj = {
-        from_name: e.name,
-        from_email: e.email,
+        to_name: e.name,
+        to_email: e.email,
         message: e.message,
-        from_phone: e.phone ? e.phone : "not provided",
+        to_phone: e.phone ? e.phone : "not provided",
       };
       emailjs
         .send(
           "service_vztm2qa",
-          "template_6w4skyd",
+          "template_pj0zc6t",
           formObj,
           "user_v6guEmIacckV6bNjPCz5c"
         )
